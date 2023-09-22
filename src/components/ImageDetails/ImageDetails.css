@@ -1,0 +1,34 @@
+.image-details-wrapper {
+    max-width: 1024px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 92px);
+    gap: 2rem;
+}
+
+.image-wrapper > img {
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    border-radius: 4px;
+}
+
+.image-des-title > h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.image-des-title > p {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 1024px) {
+    .image-details-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+}
